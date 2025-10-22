@@ -22,9 +22,9 @@
         } else {
             echo "🚫 No matching cars found.";
         }
-    } else {
+    } 
+    else {
         echo "Please enter a model to search.";
     }
-
     mysqli_close($conn);
 ?>
